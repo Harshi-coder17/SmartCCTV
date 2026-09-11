@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+*.env.local
+
+# JWT Keys (never commit)
+keys/
+*.pem
+*.key
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Evidence (sensitive - never commit)
+evidence/
+!evidence/.gitkeep
+
+# Logs
+logs/
+!logs/.gitkeep
+
+# Model weights (large binary files)
+models_cache/
+*.pt
+*.onnx
+*.pth
+!yolov8n.pt
+
+# FAISS indices
+*.faiss
+*.index
+
+# Snapshots and video data
+web/snapshots/
+web/latest_frame.jpg
+web/alerts.json
+web/detections.json
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation / Project Proposals
+Documents/
+documents/

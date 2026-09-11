@@ -1,0 +1,46 @@
+[
+  {
+    "camera_id": "CAM-01",
+    "name": "Gate Alpha - Primary",
+    "location_name": "Sector 7 Gate Alpha",
+    "gps_lat": 28.6139,
+    "gps_lon": 77.2090,
+    "rtsp_url": "video.mp4",
+    "camera_type": "visible",
+    "expected_fps": 30,
+    "orientation_degrees": 180,
+    "zone_ids": ["ZONE-ALPHA"],
+    "capability_profile": {
+      "detection": true,
+      "tracking": true,
+      "face": true,
+      "anpr": false,
+      "reid": true,
+      "night_analytics": false,
+      "thermal": false
+    },
+    "is_active": true
+  },
+  {
+    "camera_id": "CAM-02",
+    "name": "Perimeter East - Secondary",
+    "location_name": "Sector 7 Perimeter East",
+    "gps_lat": 28.6145,
+    "gps_lon": 77.2095,
+    "rtsp_url": "video2.mp4",
+    "camera_type": "visible",
+    "expected_fps": 30,
+    "orientation_degrees": 270,
+    "zone_ids": ["ZONE-ALPHA", "ZONE-RESTRICTED"],
+    "capability_profile": {
+      "detection": true,
+      "tracking": true,
+      "face": true,
+      "anpr": true,
+      "reid": true,
+      "night_analytics": false,
+      "thermal": false
+    },
+    "is_active": true
+  }
+]

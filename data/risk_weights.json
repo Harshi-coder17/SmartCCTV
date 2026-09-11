@@ -1,0 +1,58 @@
+{
+  "_comment": "Risk scoring weight configuration for SmartCCTV Step 29 formula. Edit weights here to recalibrate - no server restart required.",
+  "_version": "1.0",
+  "_last_updated": "2026-09-11",
+
+  "identity_tier": {
+    "_description": "Direct policy/identity evidence - close to ground truth",
+    "zone_violation": 30,
+    "no_traceable_origin": 25,
+    "route_anomaly": 15,
+    "off_hours": 10
+  },
+
+  "context_multipliers": {
+    "zone_sensitivity": {
+      "1": 0.6,
+      "2": 0.6,
+      "3": 1.0,
+      "4": 1.4,
+      "5": 1.4
+    },
+    "time_factor": {
+      "daytime": 0.7,
+      "night": 1.3,
+      "daytime_start_hour": 6,
+      "daytime_end_hour": 20
+    }
+  },
+
+  "behavior_tier": {
+    "_description": "Corroborating behavioral context - never triggers alerts independently",
+    "_hard_cap_when_no_identity_flag": 5,
+    "trajectory_jagged": 3,
+    "stutter_gait": 3,
+    "boundary_hesitation": 3,
+    "sudden_level_change": 4,
+    "compressed_silhouette": 2,
+    "crawling_detected": 2,
+    "crouching_sustained": 2,
+    "group_huddling": 2,
+    "sustained_upward_gaze": 2,
+    "jittery_head": 2,
+    "arm_tucked": 2
+  },
+
+  "severity_bands": {
+    "_description": "Risk score thresholds for severity classification",
+    "low_max": 19,
+    "medium_max": 39,
+    "high_max": 59,
+    "critical_min": 60
+  },
+
+  "camera_confidence": {
+    "_description": "Score penalty when camera has low quality/confidence",
+    "low_confidence_penalty": -15
+  }
+}
