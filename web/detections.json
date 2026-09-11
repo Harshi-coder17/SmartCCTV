@@ -1,0 +1,182 @@
+[
+  {
+    "timestamp": "2026-09-09T21:54:58",
+    "type": "face",
+    "track_id": 42,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:54:58",
+    "type": "face",
+    "track_id": 127,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:54:58",
+    "type": "face",
+    "track_id": 108,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:00",
+    "type": "face",
+    "track_id": 102,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:01",
+    "type": "plate",
+    "track_id": 10,
+    "detail": "2"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:01",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:03",
+    "type": "face",
+    "track_id": 108,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:06",
+    "type": "face",
+    "track_id": 127,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:07",
+    "type": "face",
+    "track_id": 164,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:07",
+    "type": "face",
+    "track_id": 108,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:07",
+    "type": "face",
+    "track_id": 42,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:09",
+    "type": "face",
+    "track_id": 182,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:11",
+    "type": "face",
+    "track_id": 108,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:11",
+    "type": "face",
+    "track_id": 191,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:12",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:13",
+    "type": "plate",
+    "track_id": 1,
+    "detail": "TE"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:14",
+    "type": "face",
+    "track_id": 203,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:15",
+    "type": "face",
+    "track_id": 108,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:17",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:26",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:28",
+    "type": "face",
+    "track_id": 191,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:33",
+    "type": "face",
+    "track_id": 241,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:34",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:36",
+    "type": "face",
+    "track_id": 254,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:39",
+    "type": "face",
+    "track_id": 203,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:39",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:41",
+    "type": "face",
+    "track_id": 283,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:44",
+    "type": "face",
+    "track_id": 254,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:45",
+    "type": "face",
+    "track_id": 96,
+    "detail": "face detected"
+  },
+  {
+    "timestamp": "2026-09-09T21:55:45",
+    "type": "face",
+    "track_id": 203,
+    "detail": "face detected"
+  }
+]
